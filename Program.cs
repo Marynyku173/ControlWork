@@ -6,7 +6,7 @@ void array(string [] stringArray)
 {
   for (int i = 0;i<stringArray.Length;i++)
   {
-     Console.WriteLine($"Введите {i+1} элемент массива");
+     Console.WriteLine($"Enter {i+1} array element");
      stringArray[i] = Console.ReadLine();
   }
 }
@@ -37,7 +37,7 @@ void printA(string [] stringArray)
     Console.Write("[");
     for (int i = 0;i<stringArray.Length;i++)
     {
-    Console.Write($"‘{stringArray[i]}’, ");
+    Console.Write($"‘{stringArray[i]}’ ");
     }
     Console.Write("]");
 }
